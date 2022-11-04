@@ -6,6 +6,11 @@ body {
     background: #121321;
 }
 
+a:hover {
+    text-decoration: underline;
+    transition: all 2s ease-out;
+}
+
 @media screen and (max-width:720px) {
     .content .top {
         display: grid;
