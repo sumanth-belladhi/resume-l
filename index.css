@@ -57,7 +57,7 @@
         border: .5px solid rgba(255, 255, 255, 0.1);
         box-shadow: 0px 25px 45px rgba(0px, 0px, 0px, 0.5);
         background: rgb(2, 0, 36);
-        background: linear-gradient(340deg, navy 0%, #591484 100%, navy 40%);
+        background: linear-gradient(340deg, rgb(9, 9, 91) 0%, #591484 100%, rgb(1, 1, 69) 40%);
         backdrop-filter: blur(25px);
         border-radius: 3vmax;
         height: max-content;
