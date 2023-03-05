@@ -112,10 +112,10 @@
         color: white;
         letter-spacing: .2vw;
         font-size: 2.5vmax;
-        background: linear-gradient(90deg, #ffff00, gold, rgb(228, 224, 224), white);
+        background: linear-gradient(90deg, rgb(254, 254, 0), rgb(244, 244, 39), rgb(237, 237, 97), rgb(228, 224, 224), white);
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
-        animation: animate 6s linear infinite;
+        animation: animate 4s linear infinite;
         background-size: 400%;
     }
     
@@ -299,4 +299,9 @@
         border-radius: 5px;
     }
     
-    .certificate {}
+    .certificate div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 2px;
+    }
