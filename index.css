@@ -98,13 +98,26 @@
         justify-content: center;
         margin-left: 5vw;
     }
-    
-    @keyframes animate {
+    /*@keyframes animate {
         0% {
             background-position: 0%;
         }
         100% {
             background-position: 400%;
+        }
+    }*/
+    
+    .namehead {
+        color: #fff;
+        animation: glow 1s ease-in-out infinite alternate;
+    }
+    
+    @-webkit-keyframes glow {
+        from {
+            text-shadow: 0 0 100px rgb(114, 114, 202);
+        }
+        to {
+            text-shadow: 0 0 10px #ffffff;
         }
     }
     
@@ -112,11 +125,11 @@
         color: white;
         letter-spacing: .2vw;
         font-size: 2.5vmax;
-        background: linear-gradient(90deg, #F2F7FF, rgb(46, 46, 46), rgb(57, 57, 56), rgb(145, 145, 142), #ffffff, #F2F7FF);
+        /* background: linear-gradient(90deg, #F2F7FF, rgb(46, 46, 46), rgb(57, 57, 56), rgb(145, 145, 142), #ffffff, #F2F7FF);
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
         animation: animate 5s linear infinite;
-        background-size: 400%;
+        background-size: 400%;*/
     }
     
     .top .name-quali span {
